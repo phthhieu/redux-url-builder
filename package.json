@@ -1,0 +1,39 @@
+{
+  "name": "redux-url-builder",
+  "version": "0.1.0",
+  "description": "Easy to build an url with Redux",
+  "main": "lib/library.js",
+  "scripts": {
+    "build": "webpack --env build",
+    "dev": "webpack --progress --colors --watch --env dev",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "babel-cli": "6.24.1",
+    "babel-core": "6.24.1",
+    "babel-eslint": "7.2.3",
+    "babel-loader": "7.0.0",
+    "babel-plugin-add-module-exports": "0.2.1",
+    "babel-preset-es2015": "6.24.1",
+    "eslint": "3.19.0",
+    "eslint-loader": "1.7.1",
+    "jest": "^20.0.4",
+    "webpack": "3.1.0",
+    "yargs": "7.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phthhieu/redux-url-builder.git"
+  },
+  "keywords": [
+    "Redux",
+    "Url",
+    "Builder"
+  ],
+  "author": "Hieu Pham",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/phthhieu/redux-url-builder/issues"
+  },
+  "homepage": "https://github.com/phthhieu/redux-url-builder#readme"
+}
